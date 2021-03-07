@@ -6,16 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Markus Meldo</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
     <header>
-        <h1 id="foretagsnamn">
-            <span id="bokstav1">#</span><span id="bokstav2">m</span><span id="bokstav3">a</span><span
-                id="bokstav4">c</span><span id="bokstav5">k</span><span id="bokstav6">a</span><span
-                id="bokstav7">n</span>
-        </h1>
         <nav role="navigation">
             <ul>
                 <a href="././index.html">
@@ -41,243 +37,621 @@
     </header>
 
     <main id="main-rapport" role="main">
-        <div id="innehallsforteckning">
-            <h4>Innehållsförteckning</h4>
-            <ol>
-                <a href="">
-                    <li><span class="toc-number">1</span> <span class="toc-text">Syfte</span></li>
-                </a>
-                <a href="">
-                    <li><span class="toc-number">2</span> <span class="toc-text">Processanalys</span></li>
-                </a>
-                <a href="">
-                    <li><span class="toc-number">3</span> <span class="toc-text">Val av element i HTML-dokumentet</span>
-                </a>
+        <div id="rapport-inledning">
+            <div id="innehallsforteckning">
+                <h4>Innehållsförteckning</h4>
                 <ol>
-                    <a href="">
-                        <li><span class="toc-number">3.1</span> <span class="toc-text">Element i head</span></li>
-                    </a>
-                    <a href="">
-                        <li><span class="toc-number">3.2</span> <span class="toc-text">Element i header</span></li>
-                    </a>
-                    <a href="">
-                        <li><span class="toc-number">3.3</span> <span class="toc-text">Element i main</span></li>
-                    </a>
-                    <a href="">
-                        <li><span class="toc-number">3.4</span> <span class="toc-text">Element i footer</span></li>
-                    </a>
-                </ol>
-                </li>
-
-                <a href="">
-                    <li><span class="toc-number">4</span> <span class="toc-text">CSS</span>
-                </a>
-                <ol>
-                    <a href="">
-                        <li><span class="toc-number">4.1</span> <span class="toc-text">Indelning i
-                                CSS-dokumentet</span>
+                    <a href="#syfte">
+                        <li>
+                            <h4>1 Syfte</h4>
                         </li>
                     </a>
-                    <a href="">
-                        <li><span class="toc-number">4.2</span> <span class="toc-text">Placeholder 1</span></li>
+
+                    <a href="#processanalys">
+                        <h4>
+                            <li>2 Processanalys</li>
+                        </h4>
                     </a>
-                    <a href="">
-                        <li><span class="toc-number">4.3</span> <span class="toc-text">Placeholder 2</span></li>
+
+                    <a href="#html-dokument">
+                        <li>
+                            <h4>3 Val av element i HTML-dokumentet</h4>
                     </a>
-                    <a href="">
-                        <li><span class="toc-number">4.4</span> <span class="toc-text">Placeholder 3</span></li>
+
+                    <ol>
+                        <a href="#html-head">
+                            <li>
+                                <h5>3.1 Element i head</h5>
+                            </li>
+                        </a>
+                        <a href="#html-header">
+                            <h5>
+                                <li>3.2 Element i header</li>
+                            </h5>
+                        </a>
+                        <a href="#html-main">
+                            <h5>
+                                <li>3.3 Element i main</li>
+                            </h5>
+                        </a>
+                        <a href="#html-footer">
+                            <h5>
+                                <li>3.4 Element i footer</li>
+                            </h5>
+                        </a>
+                    </ol>
+                    </li>
+
+                    <a href="#css">
+                        <h4>
+                            <li>4 CSS på webbplatsens olika sidor
+                        </h4>
+                    </a>
+                    <ol>
+                        <a href="#css-header-footer">
+                            <h5>
+                                <li>4.1 Header och footer</li>
+                            </h5>
+                        </a>
+                        <a href="#css-landningssida">
+                            <h5>
+                                <li>4.2 Landningssidan</li>
+                            </h5>
+                        </a>
+                        <a href="#css-rapportsida">
+                            <h5>
+                                <li>4.3 Sidan benämnd Rapport</li>
+                            </h5>
+                        </a>
+                        <a href="#css-showcasesida">
+                            <h5>
+                                <li>4.4 Sidan benämnd Showcase</li>
+                            </h5>
+                        </a>
+                    </ol>
+                    </li>
+
+                    <a href="#kallforteckning">
+                        <h4>
+                            <li>5 Källförteckning</li>
+                        </h4>
                     </a>
                 </ol>
-                </li>
-                <a href="">
-                    <li><span class="toc-number">5</span> <span class="toc-text">Källförteckning</span></li>
-                </a>
-            </ol>
+            </div>
+
+            <div id="rapport-syfte-processanalys">
+                <h2>Rapport</h2>
+                <section>
+                    <p>
+                        I examinationsuppgiften ska det skapas en webbplats med minst två sidor som är
+                        responsiva, det vill säga anpassad för olika enheter (dator, mobil och kanske en tablet).
+                        Uppgiften består dessutom av att författa en processanalys, som består av att analysera arbetet
+                        med
+                        examinationsuppgiften.
+                    </p>
+                    <p>
+                        Det tillhandahålls en mall för sidorna, men går även att välja att designa sidorna själv.
+                    </p>
+                </section>
+                <h3>1 Syfte</h3>
+                <section id="syfte">
+                    <p>
+                        Uppgiften syfte är att ge övning i upptaggandet av en komplett webbplats med väl genomtänkt och
+                        korrekt HTML5 och CSS-kod. Genomförda val ska argumenteras för och presenteras i
+                        processanalaysen. Uppgiften kommer att användas som underlag för lärarna att bedöma kunskapen
+                        inom området.
+                    </p>
+                    <p>
+                        Uppgiften är indivuell vilket betyder att inlämningarna skall vara egna och inte någon annans.
+                        Det innebär däremot inte att frågor får ställas eller att råd får sökas.
+                    </p>
+                </section>
+                <h3>2 Processanalys</h3>
+                <section id="processanalys">
+                    <p>
+                        Processanalaysen består av att diskutera och argumentera kring de olika val som genomförts för
+                        kodningen av sidan och ska referer till relevant litteratur. Eftersom processanalysen är en stor
+                        del i betygsättningen är det viktigt att ordentligt argumentera för kodningsval och det är
+                        därmed av vikt att förklara varför val är gjorda och koppla till detta till teori.
+                    </p>
+                    <p>
+                        I arbetet med examinationsuppgiften är det bra att skriva ner sina tankar och att ställa sig
+                        frågan “varför?” när kodningsval förklaras. Det är viktigt att förklara varför val har
+                        genomförts och inte endast att valet har blivit genomfört.
+                    </p>
+                </section>
+            </div>
         </div>
 
-        <div id="rapport-syfte-processanalys">
-            <h2>Rapport</h2>
-            <section>
-                <p>
-                    I examinationsuppgiften är det tänkt att ni skall skapa en webbplats med minst två sidor som är
-                    responsiva, det vill säga anpassad för olika enheter (dator, mobil och kanske en tablet). Du skall
-                    dessutom författa en processanalys, där ni analyserar ert arbete med examinationsuppgiften.
-                </p>
-                <p>
-                    Du får designa sidorna själv om du vill, men vi tillhandahåller även en mall för sidorna som du kan
-                    använda.
-                </p>
-            </section>
-            <h3>1 Syfte</h3>
-            <section>
-                <p>
-                    Uppgiftens främsta syfte är att ge er övning i upptaggandet av en komplett webbplats med väl
-                    genomtänkt och korrekt xhtml/HTML5 och CSS-kod samt att ni skall kunna argumentera för era val.
-                    Sekundärt är syftet att ge underlag för lärarna att bedöma er kunskap inom området.
-                </p>
-                <p>
-                    Uppgiften är individuell. Detta betyder att ni naturligtvis får diskutera uppgiften i forumet och be
-                    om handledning på momentet, men inlämningarna skall vara era egna och inte någon annans.
-                </p>
-            </section>
-            <h3>2 Processanalys</h3>
-            <section>
-                <p>
-                    Här diskuterar och argumenterar ni kring era olika val vad gäller kodningen av sidan och refererar
-                    till
-                    adekvat litteratur. Denna del är en stor del i betygsättningen, så se till att ni ordentligt
-                    argumenterar för era kodningsval, berättar hur ni tänkt och förklarar varför ni gjort som ni gjort,
-                    och
-                    refererar till litteratur / webbsidor ni läst som kopplar till det ni skriver om.
-                </p>
-                <p>Det är bra om ni kontinuerligt i arbetet med examinationsuppgiften skriver ner era tankar, och att ni
-                    ställer er själva frågan “varför?” när ni förklarar era kodningsval. Exempelvis kan man skriva “Jag
-                    använde mig av en ul-lista för min meny”. Sluta inte texten där, utan det är mer intressant att vi
-                    får veta varför ni använde en ul-lista. Har ni läst någonstans att detta är bäst sätt? Skriv då ner
-                    detta som en referens. Finns det alternativ till en ul-lista för menyn? Använd texten som ett
-                    verktyg för att visa vad ni kan och vad ni har läst i ämnet.</p>
-            </section>
+        <div id="rapport-textmassa">
+            <div id="rapport-html-css">
+
+                <section id="html-dokument">
+                    <h3>3 Val av element i HTML-dokumnetet</h3>
+                </section>
+
+                <section id="html-head">
+                    <h4>3.1 Element i head</h4>
+                    <p>
+                        En head tag har använts eftersom det är en behållare av information om sidan, till skillnad av
+                        mycket av den övriga informationen som presenteras på sidan. Det är endast ett fåtal taggar som
+                        används i head-elementet, vilket även framgår på denna webbplats (Lemay, Colburn & Kyrning,
+                        2016).
+                    </p>
+                </section>
+
+                <section>
+                    <h5>3.1.2 meta-tag</h5>
+                    <p>
+                        Metadata är data om data och syftar således till att beskriva webbplatsen. En av de meta-taggar
+                        som används består av charset som används för att beskriva för webbläsaren att den ska använda
+                        teckenkodningen UTF-8 och detta används eftersom det är det enda giltiga teckenkodningen för
+                        HTML5 (MDN Web Docs,
+                        2020 d).
+                    </p>
+                </section>
+
+                <section>
+                    <h5>3.1.3 title-tag</h5>
+                    <p>
+                        Title-tag har använts eftersom det indikerar vad sidan handlar om. För att ge besökaren en
+                        överblick
+                        om innehållet är det viktigt att välja både en kort men även innehållsrik titel. Titeln används
+                        inte
+                        enbart som benämning på fliken i webbläsaren utan kan även användas för att till exempel leta i
+                        webbläsarens historik men dessutom för sökmotorer när de presenterar sökresultat. Titeln är
+                        därför
+                        viktig för att få besökaren att klicka på sökresultat, men även för att sökresultaten ska bli så
+                        träffsäkra som möjligt (Lemay, Colburn & Kyrning, 2016).
+                    </p>
+                </section>
+
+                <section id="html-header">
+                    <h4>3.2 Header elementet</h4>
+                    <p>
+                        Header elementet används eftersom det används för att presentera indledande innehåll eller
+                        navigation. Elementet kan även innehålla rubrikelement, men även en logotyp,
+                        ett sökformulär, författarens namn eller andra liknande element (MDN Web Docs, 2021 a).
+
+                        På den här webbplatsen används header elementet för att gruppera och strukturera informationen
+                        kring navigation, logotyp och inledande säljtext. Detta innehåll presenteras högt upp på sidan
+                        eftersom det är viktigt för besökarens förmåga att navigera på sidan, men även för att
+                        presentera information som anses vara av vikt för samtliga besökare.
+                    </p>
+
+                    <p>
+                        Header elementet har valts eftersom det ger en bra gruppering i webbplatsens inledande del och
+                        tydliggör vad som finns längst upp på sidan. Elementet innehåller därmed både logotyp, länkar
+                        och
+                        kort
+                        ingress i syfte att fånga läsarens intresse och ge stöd vid navigering.
+                    </p>
+                    <h5>3.2.1 nav-tag</h5>
+                    <p>
+                        Elementet nav använts för att skapa navigationslänkar på sidan, dessa används för att navigera
+                        på
+                        den
+                        aktuella sidan men även till andra delar av webbplatsen. Vanliga exempel på navigering är till
+                        exempel
+                        menyer, innehållsförteckningar eller olika former av index (MDN Web Docs,
+                        2020 e).
+                    </p>
+                </section>
+
+                <section>
+                    <h5>3.2.2 ul och li</h5>
+                    <p>
+                        Ul-elementet används eftersom möjliggör användandet av en osorterad lista vilket har använts för
+                        att skapa navigationsmenyn (W3schools,
+                        uå b).Listor kan antingen vara osorterade, som i detta fall eller sorterade, men då används
+                        elementet ol istället för ul (W3schools,
+                        uå c).
+                    </p>
+                    <p>
+                        Det finns inget behov av en numrerad lista som ger webbplatsbesökaren vägledning i
+                        vilken ordning som länkarna bör besökas. Med bakgrund i detta används ul i kombination med li.
+                        Den numrerade listan (ol) bör användas när det verkligen finns behov av att presentera
+                        information i en numrerad ordning. Ul och ol-taggen kan användas för att skapa hierarkier på i
+                        webbplatsens länkar, något som inte har behövts i menyn på denna webbplats. Li-taggen har
+                        däremot använts för att
+                        sätta stil på länkarna och ger därmed ytterligare möjligheter för anpassning av färg, form och
+                        innehåll.
+                    </p>
+                </section>
+
+                <section>
+                    <h5>3.2.3 anchor-tag</h5>
+                    <p>
+                        Elementet ”anchor” (a) används för att skapa hyperlänkar mellan en källa och dess destination.
+                        Källan kan utgöras av till exempel text, bild eller en knapp som länkar till en annan resurs som
+                        finns i destinationen. Hyperlänkar är en av de mest grundläggande teknikerna som får webben att
+                        vara
+                        en samlingsplats för information (HTML.com, uå a).
+                    </p>
+
+                    <p>
+                        För att länka inom webbsidan och till andra sidor på webbplatsen har hyperlänkar använts. Det
+                        har fattats beslut om att all information ska presenteras i den aktuella fliken och att
+                        hyperlänkar således inte ska öppna nya flikar, eftersom det kan vara förvirrande för användaren.
+                    </p>
+                </section>
+
+                <section>
+                    <h5>3.2.4 section-tag</h5>
+                    <p>
+                        Section-elementet används för att definiera en generisk sektion av ett dokument. Många av de
+                        andra taggarna i HTML har en mer specifik mening, men section-elementet bör kopplas samman med
+                        en rubrik och får därmed ett tydligare sammanhang. Det är även möjligt att använda
+                        section-elementet för att skapa avgränsade undersavsnitt på sidan (Lemay, Colburn & Kyrning,
+                        2016).
+                    </p>
+
+                    <p>
+                        På denna webbplats har section-element använts för att gruppera innehåll och dels skapa
+                        överskådlighet i HTML-koden, men även för att tillsammans med id kunna gruppera och stilsätta
+                        section-element. Det har till exempel använts för att strukturera innehållet på webbplatsens
+                        landningssida och har utgjort ett viktigt verktyg för att skapa en struktur under arbetets gång.
+                    </p>
+                </section>
+
+                <section id="html-main">
+                    <h4>3.3 Element i main</h4>
+                    <p>
+                        Main-elementet representerar det dominerande inenhållet i body-elementet. Main ramar in det
+                        innehåll som är centralt för den aktuella webbsidan och bör således vara unikt för varje
+                        webbsida. Återkommande delar som till exempel sidebar, meny och sökformulär (som inte är sidans
+                        huvudsakliga syfte) bör inte placeras i main (MDN Web Docs,
+                        2020 c).
+                    </p>
+                    <h5>3.3.1 heading-element</h5>
+                    <p>
+                        Heading-element används för att sätta titel på sektioner av en webbsida. HTML-definierar sex
+                        olika nivåer av headings (rubriker), där numret indikerar storleken hos rubriken och där ett är
+                        den största rubriken och sex den minsta (Lemay, Colburn & Kyrning,
+                        2016).
+                    </p>
+
+                    <p>
+                        Rubriker har använts för att ge läsaren struktur i texten och på så sätt öka läsbarheten på
+                        webbplatsen. För att skapa avsnitt inom olika sektioner har rubriker med spaltfyllnad använts,
+                        vilket ytterligare bidrar till en förbättrad läsbarhet och tydlig indelning. Eftersom rubriker
+                        på ett enkelt sätt kan användas som block-element är det ett "knep" som använts för att fylla
+                        hela rader med innehåll och därmed tvinga efterföljande innehåll att hamna på en egen rad.
+                        Exempel på detta återfinns i rapportens innehållsförteckning.
+                    </p>
+
+                    <h5>3.3.2 p-tag</h5>
+                    <p>
+                        Paragraf-elementet (p) använts för att presentera block av text. De flesta webbläsare radbryter
+                        mellan två olika paragrafer, vilket är praktiskt vid grundläggande styckesindelning (HTML.com,
+                        uå b).
+                    </p>
+
+                    <h5>3.3.1 img-tag</h5>
+                    <p>
+                        Img-elementet används för att visa bilder på webbsidan och har till skillnad från många andra
+                        element ingen avslutande tag. Elementet har många olika attribut som möjliggör kontroll över hur
+                        bilden ska visas på webbsidan. Det finns två tvingande element för HTML
+                        och dessa utgörs av src (som pekar mot bildens källa) och alt vilket visar en bildtext om bilden
+                        av någo anledning inte kan visas (Lemay, Colburn & Kyrning,
+                        2016).
+                    </p>
+
+                    <p>
+                        Bilder och därmed img-elementet har använts för att visa bilder på webbplatsen, bland annat
+                        under menyalterantivet "showcase" och på landningssidan. Bildtexten (attributet "alt") har
+                        beskrivits noga eftersom det används av bland annat skärmläsare som kan användas av synskadade.
+                    </p>
+                </section>
+
+                <section id="html-footer">
+                    <h4>3.4 Element i footer</h4>
+                    <p>
+                        Footer-elementet är det element som återfinns mot slutet av en sektion och innehåller
+                        information om upphovsmannen, copyrightinformation eller länkar till relaterade dokument (MDN
+                        Web Docs,
+                        2020 a).
+                    </p>
+
+                    <p>
+                        Detta element har använts eftersom det ger en naturlig plats för kontaktuppgifter.
+                    </p>
+                    <h5>3.4.1 Div-elementet</h5>
+                    <p>
+                        Div-elementet används för att definiera en indelning i html-dokumentet och kan på ett enkelt
+                        sätt designas utifrån till exempel id. Enligt standard så sker radbrytning både innan och före
+                        ett div-element (W3schools, uå a).
+                    </p>
+
+                    <p>
+                        På webbplatsen har div-elementet använts för att gruppera innehållet och således ge möjligheter
+                        för att kunna formalisera och designa med en stor grad av valfrihet. Exempel på detta återfinns
+                        i footer-elementet där div har använts för att gruppera olika former av information på ett
+                        strukturerat sätt. Till skillnad från section som används för att dela in dokument i olika
+                        sektioner har div använts för att definiera användbara indelningar i HTML-dokumentet.
+                    </p>
+                </section>
+
+                <section id="css">
+                    <h3>4 CSS på webbplatsens olika sidor</h3>
+                    <p>Eftersom den CSS som används i header och footer återanvänds på landningssidan, rapporten och
+                        sidan benämnd showcase kommer dessa att presenteras under avsnitt 4.2. CSS som är specifik för
+                        respektive sedan presenteras sedan under punkterna 4.3 till 4.5. </p>
+                </section>
+
+                <section id="css-header-footer">
+                    <h4>4.1 Header och footer</h4>
+                    <p>
+                        Lägg till ett par rader som hänvisar till kurslitteratur. Vad är background image? Osv.
+                    </p>
+
+                    <p>
+                        Både header och footer använder en bakgrundsbild som bakgrund. För att inte headern och footern
+                        ska visa exakt samma bild och därmed skapa lite variation används olika delar av bilden. Header
+                        använder background-positon: center och footern använder background-position: bottom. Både
+                        header och footer använder background-repeat: no-repeat eftersom bakgrundsbilden inte ska
+                        upprepas när upplösningen i x-led blir för hög. För att kunna fylla ut den fullständiga bredden
+                        på header och footer används attributet background-size: 100%.
+                    </p>
+                    <h5>4.1.1 Header</h5>
+                    <p>Flexbox layout är ett sätt att skapa en effektiv placering av element och skapa mellanrum mellan
+                        elementen, även när storleken är okänd. Samma sak går givetvis att göra med fasta värden som
+                        till exempel pixlar, men tanken med flexbox är att skapa en flexibel layout och möjliggöra
+                        justering av bredd och höjd för att fylla ett utrymme (Coyier, 2020). </p>
+                    <p>
+                        I header tillämpas "display: flex" för att skapa en placering av element som går att styra på
+                        ett enkelt sätt med tydliga mellanrum och flexibel placering utifrån upplösningen på skärmen hos
+                        besökaren. För att få föremål att flytta till en ny rad när det inte finns något utrymme i x-led
+                        används flex-wrap: wrap. Detta ger ytterligare flexibilitet utifrån besökarens upplösning.
+                    </p>
+
+                    <p>
+                        RGBa är ett sätt att deklarera färger i CSS som inkluderar stöd för alfa vilket ger möjlighet
+                        att arbeta med transparens i färgen (Coyier, 2018). För att skapa en känsla av att
+                        menyalternativen i headern smälter samman med bilden har rgba och framförallt alfa-elementet
+                        använts. Detta kan däremot försvåra läsbarheten något, men för att råda bot på det har ":hover"
+                        använts som minskar alfa (genomskinligheten). Till detta används även "transition" som ger en
+                        mjukare övergång mellan styrkan i bägge alfa värde. Detta ger en ökad läsbarhet av
+                        menyalternativen
+                        och förstärker vilken del av webbsidan som besökaren befinner sig på med muspekaren.
+                    </p>
+
+                    <p>
+                        I övrigt har flertalet olika "grundläggande" css-attribut använts för att skapa en tydlig
+                        indelning mellan olika delar. Dessa rör sig bland annat om padding i syfte att skapa avstånd
+                        mellan element och ram, men även av color, height, width osv.
+                    </p>
+                    <h5>4.1.2 Footer</h5>
+                    <p>Id-selektorn skapar möjligheten att skapa förändringar i specifika element genom att refera html
+                        attributets id. Id attributen borde vara unika och HTML-kod med två eller fler identiska id
+                        kommer inte att valideras och riskerar att skapa oförutsägbara resultat (Cope, 2013). </p>
+                    <p>
+                        Precis som i headern används "display:flex" för att skapa en flexibel placering och skapa
+                        möjligheter att styra placeringen på ett smidigt sätt. I footer används tre olika id för att
+                        hantera varje del av footern och styra mellanrum mellan de tre delarna. Detta för att skapa
+                        ytterligare läsbarhet och en tydligare indelning av informationen.
+                    </p>
+                    <p>
+                        Justify-content: center används för att på ett smidigt sätt centrera de tre olika delarna i
+                        footern och är ett sätt att bestämma placeringen kring huvudaxeln som används, vilket i detta
+                        fall utgörs av x-led (Coyier, 2020).
+                    </p>
+
+                    <h5>4.1.3 Förändringar i och med responsivitet</h5>
+                    <p>
+                        Vid en upplösning i x-led på 1450 pixlar (eller lägre) finns en brytpunkt som i headern
+                        framförallt modifierar hur säljtexten presenteras och hur stor del av bredden den kommer att
+                        uppta. Detta sker i syfte att öka läsbarheten vid framförallt mindre skärmar (som följdaktigen
+                        även bör ha en lägre upplösning). Samma sak sker igen vid 1100 px, återigen i syfte att
+                        ytterligare förbättra läsbarheten hos säljtexten som anses ha ett högt värde för webbplatsen.
+                    </p>
+                </section>
+
+                <section id="css-landningssida">
+                    <h4>4.2 Landningssidan</h4>
+                    <p>Relativa enheter är enheter som får sin storlek från någonting annat, exempel på detta är till
+                        exempel em och rem, vilket är enheter som är relativa till en font. Det finns även andra former
+                        av relativa enheter, till exempel procent, vilket alltid är relativt i förhållande till ett
+                        annat värde. Genom att använda sig av relativa värden kan objekt skalas upp och ned beroende på
+                        ett annat värde, som till exempel skärmens upplösning (Andrew, uå).
+                    </p>
+
+                    <p>
+                        Enligt den mockup som examinationsuppgiften grundar sig på finns det tre sektioner på
+                        landningssidan som har delas in tydligt med hjälp av "display: flex" och "justify-content:
+                        center". För att skapa utrymme mellan de olika sektionerna används padding i procent, vilket
+                        skapar en mer dynamisk webbsida eftersom det är ett relativt mått till skillnad från pixlar.
+                        Höjd, bredd och har inte anvigivts för sektionerna eftersom innehållet tillåts styra dessa mått.
+                    </p>
+
+                    <p>
+                        Varje sektion ramas in med border i syfte at ytterligare separera den information som
+                        presenteras. Det utförs för att det ska bli enklare för besökaren att se indelningen av
+                        informationen och hur den hänger samman. För att betona det första stycket i varje sektion
+                        används p:first-child som möjliggör stilsättning av det första paragrafelementet i ett annat
+                        element.
+                    </p>
+
+                    <p>Ovanför de tre sektionerna återfinns tre bilder som enligt examinationsuppgiftens mockup ska
+                        överlappa både headern och de tre sektionerna på landningssidan. Detta har hanterats genom att
+                        tillämpa negativa marginaler i toppen och botten av varje bild, eftersom det medför att bilderna
+                        flyttas i relation till upplösningen hos besökaren vilket gör att färre kring överlappningen kan
+                        uppstå. </p>
+                    <h5>4.2.1 Förändringar i och med responsivitet</h5>
+                    <p>
+                        Vid en upplösning i x-led på 1450 pixlar (eller lägre) finns en brytpunkt som ändrar bredden på
+                        de två sektionerna längst till vänster så att dessa täcker sidans bredd. Detta tillsammans med
+                        "display: flex" och i synnerhet "flex-wrap: wrap" medför att det tredje elementet knuffas ned på
+                        en egen rad och bredden ändras på denna sektion så att den spänner över hela bredden. I samband
+                        med detta tas bilden i den tredje sektionen bort med hjälp av "display:none". Det går givetvis
+                        att vara kritisk mot detta och ifrågasätta om bilden verkligen då behövs i det första läget.
+                    </p>
+
+                    <p>
+                        När uppläsningen blir mindre än 1100px i x-led förändras placeringen av innehållet igen. Varje
+                        sektion fyller utrymmet på bredden och sektionerna presenteras ovanpå varandra istället för
+                        bredvid varandra. Detta genomförs i syfte att följa den mockup som finns framtagen, men
+                        framförallt för att öka läsbarheten och skapa en bättre upplvelse för användare med mindre
+                        skärmar (som oftast har lägre upplösning). Den tredje bilden som försvann vid upplösningen
+                        mellan 1450 och 1100 pixlar är nu tillbaka, vilket förstärker frågan kring dess relevans. Är
+                        bilden viktig bör den finnas med hela tiden, är bilden istället oviktig för innehållet kanske
+                        den bör tas bort helt och hållet?
+                    </p>
+                </section>
+
+                <section>
+                    <h4 id="css-rapportsida">4.3 Sidan benämnd Rapport</h4>
+                    <p>Det finns i huvudsak två sätt att hantera det tomma utrymmet omkring en box. Padding utgör det
+                        tomma området inom utrymmet och margin är istället det tomma utrymmet omkring utrymmes och dess
+                        yttre gräns (Lemay, Colburn & Kyrning, 2016). </p>
+
+                    <p>
+                        Marginaler och padding används flitigt på sidan benämnd "RAPPORT" eftersom även detta förstärker
+                        läsbarheten och tyddliggör hur olika delar av innehållet förhåller sig till varandra. Dessa val
+                        har genomförts med användaren i åtanke och i syfte att skapa en lättläst och luftig sida.
+                    </p>
+
+                    <p>Rapporten använder rubriker i olika nivåer för att skapa en tydlig indelning av
+                        innehållet. Rubrikerna har olika storlek och tjocklek för att indikera hur de hierariskt
+                        förhåller sig till varandra. Detta hanteras med hjälp av "font-size" och "font-weight" för
+                        respektive rubrik. Innehållsförteckningen är en viktig del i rapporten och syftar till att
+                        underlätta navigeringen för besökaren vilket sker i syfte att möjliggöra för besökaren att
+                        fokusera på det som är viktigt på sidan, dvs. innehållet. I innehållsförteckningen presenteras
+                        hyperlänkarna i sin traditionellt blåa färg och med en ":hover" effekt, som ytterligare
+                        förstärker länkarna och poängterar för användaren att dessa går att klicka på. </p>
+
+                    <h5>4.3.1 Förändringar i och med responsivitet</h5>
+                    <p>
+                        Vid en upplösning i x-led på 1450 pixlar (eller lägre) finns en brytpunkt som ändrar bredden på
+                        innehållsförteckningen så att den täcker hela raden och därmed beter sig snarlikt som ett
+                        block-element. Rapportens inledning, dvs. beskrivning av rapporten, dess syfte och genomförande
+                        hamnar även det på en egen rad som täcker hela sidans bredd. Precis som för de andra sidorna på
+                        webbplatsen tillämpas "display:flex" och "flex-wrap: wrap". Syftet är precis som för de andra
+                        sidorna att öka läsbarheten och underlätta navigeringen för besökaren.
+                    </p>
+                </section>
+
+                <section>
+                    <h4 id="css-showcasesida">4.4 Sidan benämnd Showcase</h4>
+                    <p>Enligt uppgiftens mockup bör det finnas en logotyp i webbplatsens header. Eftersom jag tyckte att
+                        detta störde utseendet valde jag att ta bort logotypen. Detta kompenseras genom att jag har
+                        gjort en sida benämnd "SHOWCASE" där jag presenterar olika typer av sidor och övningsuppgifter
+                        jag genomfört under kursens gång.</p>
+                    <p>
+                        De övningsuppgifter jag har valt att genomföra är av olika karaktär vilket framgår i de bilder
+                        som presenteras. Jag har själv inte hittat på hur samtliga övningsuppgifter ska se ut. Två av
+                        exemplen som visas är från denna kurs, ett par stycken har jag utfört utifrån de uppgifter som
+                        <a id="link-text" href="https://www.freecodecamp.org/">freecodecamp.org </a> tillhandahåller,
+                        och
+                        andra övningar som till exempel "Fia med knuff" har jag själv hittat på.
+                    </p>
+
+                    <p>
+                        För att presentera bilderna på de övningsuppgifter som är genomförda tillämpas precis som på
+                        övriga sidor på denna webbplats "display: flex". När besökaren håller muspekaren över bilden
+                        används ":hover" som tillsammans med "transform:scale" skapar en förstorad bild, vilket gör det
+                        enklare för besökaren att se vad bilden illustrerar. Transition för att få till en
+                        mjukare övergång mellan den ursprungliga och förstorade bilden.
+                    </p>
+                    <h5>4.4.1 Förändringar i och med responsivitet</h5>
+                    <p>
+                        Utöver användandet av relativa enheter finns det ingen responsivitet för sidan benämnd
+                        "SHOWCASE".
+                    </p>
+                </section>
+
+                <section id="kallforteckning">
+                    <h3>5 Källförteckning</h3>
+
+                    <p>
+                        Cope, Sara. (2013). ID. [Elektronisk].
+                        https://css-tricks.com/almanac/selectors/i/id/ [2021-03-07].
+                    </p>
+
+                    <p>
+                        Coyier, Chris. (2020). A complete guide to Flexbox. [Elektronisk].
+                        https://css-tricks.com/snippets/css/a-guide-to-flexbox/ [2021-03-07].
+                    </p>
+
+                    <p>
+                        Coyier, Chris. (2018). RGBa Browser Support. [Elektronisk].
+                        https://css-tricks.com/rgba-browser-support/ [2021-03-07].
+                    </p>
+
+
+                    <p>
+                        HTML.com (uå a). HTML Anchors: Here's how to create links for fast navigation. [Elektronisk].
+                        https://html.com/anchors-links/
+                        [2021-02-18].
+                    </p>
+
+                    <p>
+                        HTML.com (uå b). HTML P Element: Here’s The Code To Identify Paragraph Text. [Elektronisk].
+                        https://html.com/tags/p/
+                        [2021-03-05].
+                    </p>
+
+                    <p>
+                        Lemay, Laura, Colburn, Rafe & Kyrnin, Jennifer (2016). Sams teach yourself: HTML, CSS &
+                        JavaScript web publishing in one hour a day. 7. edition Indianapolis, Ind.: Sams
+                    </p>
+
+                    <p>
+                        MDN Web Docs (2021 a). &ltfooter&gt. [Elektronisk].
+                        https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer
+                        [2021-03-05].
+                    </p>
+
+                    <p>
+                        MDN Web Docs (2021 b). &ltheader&gt. [Elektronisk].
+                        https://developer.mozilla.org/en-US/docs/Web/HTML/Element/header
+                        [2021-02-18].
+                    </p>
+
+                    <p>
+                        MDN Web Docs (2021 c). &ltmain&gt. [Elektronisk].
+                        https://developer.mozilla.org/en-US/docs/Web/HTML/Element/main
+                        [2021-03-03].
+                    </p>
+
+                    <p>
+                        MDN Web Docs (2021 d). &ltmeta&gt. [Elektronisk].
+                        https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta#attr-charset
+                        [2021-03-04].
+                    </p>
+
+
+                    <p>
+                        MDN Web Docs (2020 e). &ltnav&gt. [Elektronisk].
+                        https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav
+                        [2021-02-18].
+                    </p>
+
+                    <p>
+                        Andrew, Rachel (uå). Relative Units. [Elektronisk].
+                        https://thecssworkshop.com/lessons/relative-units
+                        [2021-03-08].
+                    </p>
+
+                    <p>
+                        W3schools.com (uå a). HTML &ltdiv&gt Tag. [Elektronisk].
+                        https://www.w3schools.com/tags/tag_div.ASP
+                        [2021-03-05].
+                    </p>
+
+                    <p>
+                        W3schools.com (uå b). HTML &ltul&gt Tag. [Elektronisk].
+                        https://www.w3schools.com/tags/tag_ul.asp
+                        [2021-02-18].
+                    </p>
+
+                    <p>
+                        W3schools.com (uå c). HTML Lists. [Elektronisk]. https://www.w3schools.com/html/html_lists.asp
+                        [2021-02-18].
+                    </p>
+                </section>
+            </div>
         </div>
-        <div id="rapport-html-css">
-
-            <section>
-                <h3>3 Val av element i HTML-dokumnetet</h3>
-            </section>
-
-            <section>
-                <h4>3.1 Element i head</h4>
-            </section>
-
-            <section>
-                <h5>3.1.2 meta-tag</h5>
-            </section>
-
-            <section>
-                <h5>3.1.3 title-tag</h5>
-            </section>
-
-            <section>
-                <h4>3.2 Header elementet</h4>
-                <p>
-                    Jag har använt mig av header elementet eftersom det representerar inledande innehåll på svenska som
-                    syftar till att ge vägledning. Elementet kan även innehålla rubrikelement, men även en logotyp, ett
-                    sökformulär, författarens namn eller andra liknande element (MDN Web Docs,
-                    2021 a).
-                </p>
-
-                <p>
-                    Jag valde elementet header eftersom det ger en bra gruppering i webbplatsens inledande del och
-                    tydliggör vad som finns längst upp på sidan. Elementet innehåller därmed både logotyp, länkar och
-                    kort
-                    ingress i syfte att fånga läsarens intresse och ge stöd.
-                </p>
-                <h5>3.2.1 nav-tag</h5>
-                <p>
-                    Elementet nav använts för att skapa navigationslänkar på sidan, dessa används för att navigera på
-                    den
-                    aktuella sidan men även till andra delar av webbplatsen. Vanliga exempel på navigering är till
-                    exempel
-                    menyer, innehållsförteckningar eller olika former av index (MDN Web Docs,
-                    2020 b).
-                </p>
-            </section>
-
-            <section>
-                <h5>3.2.2 ul och li</h5>
-                <p>
-                    Elementet ul har använts eftersom det används för att skapa en osorterad lista. Den osorterade
-                    listan har flera föremål, som samtliga startar med elementet li vilket markerar varje föremål i
-                    listan (W3schools,
-                    uå a). Listor kan antingen vara osorterade, som i detta fall eller sorterade, men då används
-                    elementet ol istället för ul (W3schools,
-                    uå b).
-                </p>
-                <p>
-                    Eftersom jag inte har något behov av en numrerad lista som ger webbplatsbesökaren vägledning i
-                    vilken ordning som länkarna bör besökas i har jag valt att använda ul i kombination med li. Detta
-                    beror på att jag vill använda den numrerade listan (ol) när jag verkligen har behov av att
-                    presentera information i numrerad ordning.
-                </p>
-            </section>
-
-            <section>
-                <h5>3.2.3 anchor-tag</h5>
-                <p>
-                    Elementet ”anchor” (a) används för att skapa hyperlänkar mellan en källa och dess destination.
-                    Källan kan utgöras av till exempel text, bild eller en knapp som länkar till en annan resurs som
-                    finns i destinationen. Hyperlänkar är en av de mest grundläggande teknikerna som får webben att vara
-                    en samlingsplats för information (HTML.com, uå).
-                </p>
-
-                <p>
-                    För att länka inom webbsidan och till andra sidor på webbplatsen har hyperlänkar använts. Jag har
-                    valt att informationen ska presenteras i den aktuella fliken och att hyperlänkar således inte ska
-                    öppna nya flikar, då det kan vara förvirrande för användaren.
-                </p>
-            </section>
-
-            <section>
-                <h5>3.2.4 section-tag</h5>
-            </section>
-
-            <section>
-                <h4>3.3 Element i main</h4>
-            </section>
-
-            <section>
-                <h4>3.4 Element i footer</h4>
-            </section>
-
-            <section>
-                <h3>4 CSS</h3>
-            </section>
-
-            <section>
-                <h4>4.1 Indelning i CSS-dokumentet</h4>
-            </section>
-
-            <section>
-                <h4>4.2 Placeholder 1</h4>
-            </section>
-
-            <section>
-                <h4>4.3 Placeholder 2</h4>
-            </section>
-
-            <section>
-                <h4>4.4 Placeholder 3</h4>
-            </section>
-
-            <section>
-                <h3>5 Källförteckning</h3>
-                <p>
-                    HTML.com (uå a). HTML Anchors: Here's how to create links for fast navigation.
-                    https://html.com/anchors-links/
-                    [2021-02-18].
-                </p>
-                <p>
-                    MDN Web Docs (2021 a). &ltheader&gt.
-                    https://developer.mozilla.org/en-US/docs/Web/HTML/Element/header
-                    [2021-02-18].
-                </p>
-                <p>
-                    MDN Web Docs (2020 b). &ltnav&gt. https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav
-                    [2021-02-18].
-                </p>
-                <p>
-                    W3schools.com (uå a). HTML &ltul&gt Tag. https://www.w3schools.com/tags/tag_ul.asp
-                    [2021-02-18].
-                </p>
-                <p>
-                    W3schools.com (uå b). HTML Lists. https://www.w3schools.com/html/html_lists.asp
-                    [2021-02-18].
-                </p>
-
-
-            </section>
-
-        </div>
-
     </main>
 
     <footer role="contentinfo">
